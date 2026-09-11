@@ -1,0 +1,50 @@
+Here is your updated, comprehensive Git command reference guide. It now includes the essential branch management commands (branch, checkout, switch, and merge) along with fetch, show, clone, and an explanation of fork.
+1. Repository Setup, Cloning & GitHub Foundations
+These commands handle creating, copying, and connecting repositories.
+Command / TermExplanation
+git initInitializes a brand new, empty local Git repository by creating a hidden .git folder.
+git clone <url>Downloads an entire existing repository from GitHub onto your local desktop environment.
+Fork (Concept)A GitHub feature (not a Git terminal command) that creates a personal, independent copy of someone else's repository on your GitHub account.
+git remote add origin <url>Links your local repository directory to a remote server address on GitHub under the name origin.
+git remote -vLists all configured remote connections along with their specific fetch and push internet URLs.
+git config --global user.name "..."Sets your identity name globally across all repositories on your system.
+
+2. Branching & Context Switching
+These commands allow you to isolate features, navigate between different timelines, and manage separate streams of work.
+CommandExplanation
+git branchLists all local branches in your repository. The active branch will be highlighted with an asterisk (*).
+git branch <branch-name>Creates a new branch off your current line of code, but does not switch to it automatically.
+git checkout <branch-name>Switches your working workspace to a different branch. Can also be used to discard changes in files.
+git checkout -b <branch-name>A shortcut command that creates a brand new branch and instantly switches your workspace over to it.
+git switch <branch-name>A modern, dedicated alternative to checkout designed specifically for switching between branches safely.
+git switch -c <branch-name>Creates a brand new branch and switches to it (the modern equivalent of checkout -b).
+
+3. Merging & Updating Code
+Use these commands to sync histories and combine independent branches back together.
+CommandExplanation
+git fetchDownloads historical metadata, references, and branches from GitHub without modifying your local files.
+git merge <branch-name>Takes the history from the target branch and combines it directly into your currently active branch.
+git pullFetches updates from GitHub and immediately runs git merge to update your active local workspace.
+git pushUploads all your locally committed snapshots up to your designated remote repository.
+
+4. Auditing State & Inspecting Changes
+Use these tools to view metadata, logs, and exact line changes across files.
+CommandExplanation
+git statusShows the working directory status, indicating untracked, modified, or staged files.
+git showLogs out detailed expanded information, commit metadata, and full code line modifications for a specific commit.
+git show <commit-hash>Looks inside a specific historical commit to show exactly what lines of code were added or deleted.
+git diffShows line-by-line code differences between your working directory and your last saved state.
+git logDisplays a sequential chronological history of all commits made in the active branch.
+
+5. Staging, Moving & Committing Changes
+These core commands manage your local repository staging index and save snapshots.
+CommandExplanation
+git add .Stages all current changes, updates, and untracked files in the directory for the next commit.
+git commit -m "message"Saves your staged snapshot to your local project history with a descriptive log message.
+git mv <source> <destination>Moves or renames a file/folder, staging the structural path change automatically.
+git restore <file>Discards unstaged modifications in your working directory, resetting the file back to its last save state.
+
+Would you like to practice simulating a git branch creation and merge sequence right now, or are you ready to deploy these commands on your AWS/Azure project files?
+
+
+
