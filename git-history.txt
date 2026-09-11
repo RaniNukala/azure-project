@@ -1,0 +1,23 @@
+commit 2efe51005afd20380f364ad29b356dc2d38ac4c8
+Author: RaniNukala <39751286+RaniNukala@users.noreply.github.com>
+Date:   Fri Sep 11 17:03:29 2026 -0400
+
+    added instance type
+
+commit feef48ac6af4b8222ff7610c5f51d726a6838b3b
+Author: Rani <sangavirani321@gmail.com>
+Date:   Fri Sep 11 17:00:49 2026 -0400
+
+    added instance id and description
+
+commit cb29a7e6433b33a26eb0d6911e457ce971613160
+Author: RaniNukala <39751286+RaniNukala@users.noreply.github.com>
+Date:   Fri Sep 11 16:56:21 2026 -0400
+
+    Create virtual-network
+
+commit 6cede427df3b53cbfdf9fdee7fdb8ae839cf5255
+Author: Rani <sangavirani321@gmail.com>
+Date:   Fri Sep 11 16:53:43 2026 -0400
+
+    Three new files are added
